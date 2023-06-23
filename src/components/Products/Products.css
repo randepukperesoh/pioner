@@ -1,0 +1,22 @@
+.products{
+    width: 1180px;
+    margin: 0 auto;
+}
+.productsLabel{
+    text-align: left;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+.productsRow{
+    display: flex;
+    margin: 30px 0 0 0;
+    flex-wrap: wrap;
+    width: 1180px;
+    justify-content: space-between;
+}
+.productCard:nth-child(n+4){
+    margin: 20px 0 0 0;
+}

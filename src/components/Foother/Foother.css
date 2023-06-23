@@ -1,0 +1,48 @@
+.foother{
+    margin: 0 auto;
+    max-width: 1440px ;
+    height: 360px;
+    background-color: #333333;
+    position: relative;
+
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ECECEC;
+
+    display: flex;
+}
+.yearCompany{
+    height: 20px;
+    width: 100%;
+    border-top: solid #ECECEC 1px;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    padding: 16px 0 24px 0;
+    
+}
+.whiteLogo{
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    top: 56px;
+    left: 130px;
+}
+
+.navBarFoother div{
+    margin: 0 0 24px 0;
+    max-width: 145px;
+    text-align: left;
+}
+.first{
+    margin: 56px 0 0 730px;
+}
+.second{
+    margin: 56px 0 0 90px;
+}
+.thirst{
+    margin: 56px 0 0 60px;
+}

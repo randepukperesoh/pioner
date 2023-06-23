@@ -1,0 +1,18 @@
+.news{
+    width: 1180px;
+    margin: 80px auto 0;
+}
+.newsLabel{
+    text-align: left;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    margin: 0 0 32px 0;
+}
+.newsRow{
+    display: flex;
+    margin: 0 0 80px 0;
+    justify-content: space-between;
+}

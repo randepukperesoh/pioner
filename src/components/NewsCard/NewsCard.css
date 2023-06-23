@@ -1,0 +1,39 @@
+.newsCard{
+    width: 380px;
+    height: 480px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.newsCardLabel{
+    margin: 16px 16px 0 16px;
+    text-align: left;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+.readMore{
+    position: absolute;
+    left: 16px;
+    bottom: 25px;
+
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #607CE6;
+}
+.date{
+    position: absolute;
+    right: 16px;
+    bottom: 25px;
+
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888888;
+}

@@ -1,0 +1,37 @@
+.productCard{
+    width: 380px;
+    height: 435px;
+    background-color: #F5F5F5;
+    position: relative;
+    text-align: left;
+    
+}
+
+.cardImg{
+    position: absolute;
+    top: 32px;
+    left: 24px;
+}
+.cardLabel{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+
+    position: absolute;
+    top: 330px;
+    left: 24px;
+}
+.more{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #607CE6;
+
+    position: absolute;
+    top: 380px;
+    left: 24px;
+}

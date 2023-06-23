@@ -1,0 +1,55 @@
+.header{
+    max-width: 1180px;
+    height: 113px;
+    margin: 30px auto 0;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+.headerDown{
+    display: flex;
+    margin: 16px 0 0 0;
+}
+.navBar{
+    width: 951px;
+    display: flex;
+    height: 19px;
+    color: #333333;
+}
+.navElement{
+    margin: 0 35px 0 0;
+}
+.call{
+    color: #607CE6;
+    margin-left: auto;
+}
+.headerUpper{
+    
+    height: 77px;
+    display:  flex;
+    border-bottom: solid #ECECEC 1px;
+}
+.email{
+    width: 280px;
+    height: 45px;
+    margin: 0 20px 0 520px;
+    font-size: 14px;
+    text-align: right;
+    
+}
+.phone{
+    height: 45px;
+    font-size: 14px;
+    text-align: right;
+    width: 180px;
+    word-break: break-word;
+    display: block;
+}
+.accent{
+    color: #607CE6;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
