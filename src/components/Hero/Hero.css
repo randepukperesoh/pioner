@@ -16,13 +16,16 @@
     font-size: 60px;
     line-height: 120%;
     margin: 0 20px 0 0;
-    text-align: left;
+    text-align: justify-all;
 }
 .heroAbout{
     width: 380px;
     height: 95px;
     text-align: left;
     margin: 25px 0 0 0;
+    font-size: 16px;
+    font-family: 'Source Sans 3';
+    line-height: 120%
 }
 .heroImg{
     margin: 30px 0 0 130px;

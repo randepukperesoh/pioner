@@ -11,6 +11,7 @@
 .headerDown{
     display: flex;
     margin: 16px 0 0 0;
+    position: relative;
 }
 .navBar{
     width: 951px;
@@ -19,11 +20,14 @@
     color: #333333;
 }
 .navElement{
-    margin: 0 35px 0 0;
+    white-space: nowrap;
+    width: max-content;
+    margin: 0 44px 0 0;
 }
 .call{
     color: #607CE6;
-    margin-left: auto;
+    position: absolute;
+    right: 0;
 }
 .headerUpper{
     
@@ -52,4 +56,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
+}
+.link{
+    text-decoration: underline ;
 }
