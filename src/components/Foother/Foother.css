@@ -4,14 +4,12 @@
     height: 360px;
     background-color: #333333;
     position: relative;
-
     font-family: 'Source Sans 3';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
     color: #ECECEC;
-
     display: flex;
 }
 .yearCompany{

@@ -8,10 +8,10 @@ export default function Header(){
             <div className='headerUpper'>
                 <img width={180} height={38} src='./logo.svg'/>
                 <div className='email'>
-                    По вопросам и предложениям <span className='accent link'>pionerrr@sila.ru</span>
+                    По вопросам и предложениям <span className='accent link'><a href='mailto:pionerrr@sila.ru'>pionerrr@sila.ru</a></span>
                 </div>
                 <div className='phone'>
-                    Для консультаций <wbr/><div className='accent'>+7(495) 456-24-21</div> 
+                    Для консультаций <wbr/><div className='accent'><a href='tel:+7-495-456-24-21'>+7(495) 456-24-21</a></div> 
                 </div>
             </div>
             <div className='headerDown'> 
@@ -24,7 +24,7 @@ export default function Header(){
                     <div className='navElement'> Поддержка</div>
                     <div className='navElement'> География поставок</div>
                     <div className='navElement'> Контакты</div>
-                    <div className='call'> <img width={16} height={16} src='./Vector.svg'/> ПЕРЕЗВОНИТЕ МНЕ</div>
+                    <div className='call'><a href='tel:+7-495-456-24-21'> <img width={16} height={16} src='./Vector.svg'/> ПЕРЕЗВОНИТЕ МНЕ </a></div>
                 </div>
                 
             </div>

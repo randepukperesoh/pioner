@@ -9,11 +9,17 @@ export default function Products() {
         fetch('http://localhost:3001/products')
         .then(data => data.json())
         .then(res => setProducts(res))
+        .catch(err => setProducts([{
+            id: 'err',
+            title: "что-то пошло не так",
+            img: 'https://http.cat/images/404.jpg',
+            date: Date.now()
+        }]))
     },[])
 
     let arrProducts =[]
     arrProducts = products.map((product)=> {
-        return <ProductCard key={'product' + product.id} img={product.img} title={product.title}/>
+        return <ProductCard id={product.id} key={'product' + product.id} img={product.img} title={product.title}/>
     })
     
     return(

@@ -8,6 +8,9 @@
     font-size: 16px;
     line-height: 120%;
 }
+.header a{
+    text-decoration: none;
+}
 .headerDown{
     display: flex;
     margin: 16px 0 0 0;
